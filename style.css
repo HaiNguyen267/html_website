@@ -2,6 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
+.bold-text {
+    font-weight: bold;
+    color: #33fd62;
+}
+
+.link {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #33fd62;
+
+}
+.link:visited {
+    color: #33fd62;
+
+}
 #navbar {
     background: #33fd62;
     /* color: white; */
