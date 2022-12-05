@@ -211,6 +211,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 #email {
@@ -221,7 +223,16 @@
     font-family: 'Oswald', sans-serif;
 }
 
+#github-link {
+    color: white;
+    font-size: 3em;
+    transition: 0.3s all ease-in-out;
+}
 
+#github-link:hover {
+    color: #33fd62;
+
+}
 @media (max-width: 850px) {
     .skill {
         grid-template-rows: 40% 60%;
